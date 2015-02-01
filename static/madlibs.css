@@ -1,0 +1,41 @@
+html {
+    font-family: Courier New;
+    background-color: #fff0f2;
+}
+
+body {
+    margin: 50px auto;
+    width: 500px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#submit {
+    background-color: black;
+    color: #ff1d8e;
+    padding: 10px 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8em;
+*/}
+
+#submit:hover{
+    background-color: #808080;
+    color: #00ff80;
+}
+
+.home {
+    text-align: center;
+}
+
+#thanks {
+    font-size: 0.8em;
+}
+
+.madform {
+    margin-top: 35px;
+}
