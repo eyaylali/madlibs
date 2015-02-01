@@ -58,9 +58,9 @@ def show_madlib():
         presentverb2 = request.form.get("presentverb2")
 
     if justin == "Justin Timberlake":
-        html_choice = choice(["madlib.html", "madlib-timberlake.html"])
+        html_choice = choice(["madlib-timberlake2.html", "madlib-timberlake.html"])
     else:
-        html_choice = choice(["madlib.html", "madlib-bieber.html"])
+        html_choice = choice(["madlib-bieber2.html", "madlib-bieber.html"])
 
     AWESOMENESS = [
         'awesome', 'terrific', 'fantastic', 'neato', 'fantabulous', 'wowza', 'oh-so-not-meh',
